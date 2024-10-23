@@ -9,7 +9,7 @@ resource "aws_instance" "jenkins-terraform" {
   }
 }
 
-resource "aws_instance" "jenkins-terraform" {
+resource "aws_instance" "pg" {
   ami             = "ami-0e86e20dae9224db8"
   key_name        = "jenkin"
   security_groups = ["sg-0b16f3692a548fa2d"]  # Updated to use the new security group ID
